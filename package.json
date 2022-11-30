@@ -1,0 +1,16 @@
+{
+  "name": "migrate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "migrateDomain.js",
+  "scripts": {
+    "migrate": "node migrateDomain.js && prettier --write ./out",
+    "prettier": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "prettier": "^2.8.0"
+  }
+}
